@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP SC1602
+D LCD 16x2 Alphanumeric , 8 bit parallel bus, 5V VDD
+K LCD 16x2 Alphanumeric Green Backlight
+F http://www.wincomlcd.com/pdf/WC1602A-SFYLYHTC06.pdf
+$ENDCMP
+#
+#End Doc Library
