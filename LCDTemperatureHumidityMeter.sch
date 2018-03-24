@@ -72,17 +72,9 @@ $EndComp
 Wire Wire Line
 	2100 2300 2000 2300
 Wire Wire Line
-	2000 2300 2000 3450
-Wire Wire Line
-	1900 2200 1900 3250
-Wire Wire Line
 	1900 2200 2100 2200
 Wire Wire Line
 	2100 2100 1800 2100
-Wire Wire Line
-	1800 2100 1800 3050
-Wire Wire Line
-	1700 2000 1700 2850
 Wire Wire Line
 	1700 2000 2100 2000
 Wire Wire Line
@@ -100,7 +92,7 @@ F 1 "20k" V 5250 2250 50  0000 C CNN
 F 2 "Potentiometers:Potentiometer_Trimmer_Copal_CT-6EP" H 5350 2250 50  0001 C CNN
 F 3 "" H 5350 2250 50  0001 C CNN
 	1    5350 2250
-	-1   0    0    -1  
+	-1   0    0    1   
 $EndComp
 Wire Wire Line
 	4700 2250 5200 2250
@@ -371,7 +363,7 @@ F 1 "SW_Push" H 1350 2040 50  0000 C CNN
 F 2 "Buttons_Switches_THT:SW_Tactile_Straight_KSL0Axx1LFTR" H 1350 2300 50  0001 C CNN
 F 3 "" H 1350 2300 50  0001 C CNN
 	1    1350 2100
-	0    -1   -1   0   
+	0    -1   1    0   
 $EndComp
 Wire Wire Line
 	1150 1350 1550 1350
@@ -403,21 +395,7 @@ F 3 "" H 2400 2050 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2100 1500 1550 1500
-Wire Wire Line
-	1550 1500 1550 1350
-Wire Wire Line
-	3100 1500 3600 1500
-Wire Wire Line
-	3600 1500 3600 2450
-Wire Wire Line
-	3100 1600 3700 1600
-Wire Wire Line
-	3700 1600 3700 2350
-Wire Wire Line
-	3100 1700 3800 1700
-Wire Wire Line
-	3800 1700 3800 2250
+	1550 1350 1550 1700
 Wire Wire Line
 	3100 2000 3500 2000
 Wire Wire Line
@@ -426,30 +404,6 @@ Wire Wire Line
 	3100 2200 3300 2200
 Wire Wire Line
 	3200 2300 3100 2300
-Wire Wire Line
-	2000 3450 3900 3450
-Wire Wire Line
-	1900 3250 3900 3250
-Wire Wire Line
-	1800 3050 3900 3050
-Wire Wire Line
-	1700 2850 3900 2850
-Wire Wire Line
-	3200 2300 3200 3350
-Wire Wire Line
-	3200 3350 3900 3350
-Wire Wire Line
-	3300 2200 3300 3150
-Wire Wire Line
-	3300 3150 3900 3150
-Wire Wire Line
-	3400 2950 3900 2950
-Wire Wire Line
-	3400 2950 3400 2100
-Wire Wire Line
-	3500 2000 3500 2750
-Wire Wire Line
-	3500 2750 3900 2750
 $Comp
 L Conn_02x01 J1
 U 1 1 5AA13BFD
@@ -461,4 +415,50 @@ F 3 "" H 5050 1500 50  0001 C CNN
 	1    5050 1500
 	0    1    1    0   
 $EndComp
+Wire Wire Line
+	1700 2000 1700 3450
+Wire Wire Line
+	1700 3450 3900 3450
+Wire Wire Line
+	1800 2100 1800 3350
+Wire Wire Line
+	1800 3350 3900 3350
+Wire Wire Line
+	1900 3250 3900 3250
+Wire Wire Line
+	1900 3250 1900 2200
+Wire Wire Line
+	2000 2300 2000 3150
+Wire Wire Line
+	2000 3150 3900 3150
+Wire Wire Line
+	3500 2000 3500 2950
+Wire Wire Line
+	3500 2950 3900 2950
+Wire Wire Line
+	3400 2100 3400 3050
+Wire Wire Line
+	3400 3050 3900 3050
+Wire Wire Line
+	3300 2200 3300 2750
+Wire Wire Line
+	3300 2750 3900 2750
+Wire Wire Line
+	3200 2300 3200 2850
+Wire Wire Line
+	3200 2850 3900 2850
+Wire Wire Line
+	3100 1800 3700 1800
+Wire Wire Line
+	3700 1800 3700 2350
+Wire Wire Line
+	3100 1700 3800 1700
+Wire Wire Line
+	3800 1700 3800 2250
+Wire Wire Line
+	3600 2450 3600 1600
+Wire Wire Line
+	3600 1600 3100 1600
+Wire Wire Line
+	1550 1700 2100 1700
 $EndSCHEMATC
