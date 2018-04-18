@@ -1,0 +1,89 @@
+MPLINK 5.04, LINKER
+Linker Map File - Created Wed Mar 28 02:42:46 2018
+
+                                 Section Info
+                  Section       Type    Address   Location Size(Bytes)
+                ---------  ---------  ---------  ---------  ---------
+                   .org_0       code   0x000000    program   0x000002
+                   .cinit    romdata   0x000001    program   0x000004
+                   .org_1       code   0x000004    program   0x0001be
+.config_8007_BUILD/DEFAULT/PRODUCTION/MAIN.O       code   0x008007    program   0x000002
+.config_8008_BUILD/DEFAULT/PRODUCTION/MAIN.O       code   0x008008    program   0x000002
+
+
+
+                              Program Memory Usage 
+                               Start         End      
+                           ---------   ---------      
+                            0x000000    0x000002      
+                            0x000004    0x0000e2      
+                            0x008007    0x008008      
+            228 out of 4359 program addresses used, program memory utilization is 5%
+
+
+
+                              Symbols - Sorted by Name
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+               CHKDHTFALL   0x0000c2    program     static C:\Users\miyoshi\MPLABXProjects\SC1602.X\main.asm
+              CHKDHTRESF1   0x00009e    program     static C:\Users\miyoshi\MPLABXProjects\SC1602.X\main.asm
+              CHKDHTRESF2   0x0000a2    program     static C:\Users\miyoshi\MPLABXProjects\SC1602.X\main.asm
+               CHKDHTRESR   0x0000a0    program     static C:\Users\miyoshi\MPLABXProjects\SC1602.X\main.asm
+               CHKDHTRISE   0x0000c0    program     static C:\Users\miyoshi\MPLABXProjects\SC1602.X\main.asm
+                  DHTREAD   0x000094    program     static C:\Users\miyoshi\MPLABXProjects\SC1602.X\main.asm
+                DHTREAD1B   0x0000bc    program     static C:\Users\miyoshi\MPLABXProjects\SC1602.X\main.asm
+                  DIG2LCD   0x000005    program     static C:\Users\miyoshi\MPLABXProjects\SC1602.X\main.asm
+                     DIV1   0x00008d    program     static C:\Users\miyoshi\MPLABXProjects\SC1602.X\main.asm
+                    DIV10   0x000086    program     static C:\Users\miyoshi\MPLABXProjects\SC1602.X\main.asm
+                   DIV100   0x00007f    program     static C:\Users\miyoshi\MPLABXProjects\SC1602.X\main.asm
+                  DSPLBCD   0x00006b    program     static C:\Users\miyoshi\MPLABXProjects\SC1602.X\main.asm
+                 DSPLTMPR   0x000046    program     static C:\Users\miyoshi\MPLABXProjects\SC1602.X\main.asm
+                  HEX2BCD   0x00007c    program     static C:\Users\miyoshi\MPLABXProjects\SC1602.X\main.asm
+                      ISR   0x000001    program     static C:\Users\miyoshi\MPLABXProjects\SC1602.X\main.asm
+                  LCDWRIT   0x000060    program     static C:\Users\miyoshi\MPLABXProjects\SC1602.X\main.asm
+                     LOOP   0x00005f    program     static C:\Users\miyoshi\MPLABXProjects\SC1602.X\main.asm
+                LPDHTRD1B   0x0000bf    program     static C:\Users\miyoshi\MPLABXProjects\SC1602.X\main.asm
+                  LPW1M5S   0x0000d3    program     static C:\Users\miyoshi\MPLABXProjects\SC1602.X\main.asm
+                    LPW1S   0x0000df    program     static C:\Users\miyoshi\MPLABXProjects\SC1602.X\main.asm
+                  LPW20MS   0x0000d9    program     static C:\Users\miyoshi\MPLABXProjects\SC1602.X\main.asm
+                  LPW37US   0x0000cd    program     static C:\Users\miyoshi\MPLABXProjects\SC1602.X\main.asm
+                    START   0x000010    program     static C:\Users\miyoshi\MPLABXProjects\SC1602.X\main.asm
+                 WAIT1M5S   0x0000d1    program     static C:\Users\miyoshi\MPLABXProjects\SC1602.X\main.asm
+                   WAIT1S   0x0000dd    program     static C:\Users\miyoshi\MPLABXProjects\SC1602.X\main.asm
+                 WAIT20MS   0x0000d7    program     static C:\Users\miyoshi\MPLABXProjects\SC1602.X\main.asm
+                 WAIT37US   0x0000cb    program     static C:\Users\miyoshi\MPLABXProjects\SC1602.X\main.asm
+
+
+
+                              Symbols - Sorted by Address
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                      ISR   0x000001    program     static C:\Users\miyoshi\MPLABXProjects\SC1602.X\main.asm
+                  DIG2LCD   0x000005    program     static C:\Users\miyoshi\MPLABXProjects\SC1602.X\main.asm
+                    START   0x000010    program     static C:\Users\miyoshi\MPLABXProjects\SC1602.X\main.asm
+                 DSPLTMPR   0x000046    program     static C:\Users\miyoshi\MPLABXProjects\SC1602.X\main.asm
+                     LOOP   0x00005f    program     static C:\Users\miyoshi\MPLABXProjects\SC1602.X\main.asm
+                  LCDWRIT   0x000060    program     static C:\Users\miyoshi\MPLABXProjects\SC1602.X\main.asm
+                  DSPLBCD   0x00006b    program     static C:\Users\miyoshi\MPLABXProjects\SC1602.X\main.asm
+                  HEX2BCD   0x00007c    program     static C:\Users\miyoshi\MPLABXProjects\SC1602.X\main.asm
+                   DIV100   0x00007f    program     static C:\Users\miyoshi\MPLABXProjects\SC1602.X\main.asm
+                    DIV10   0x000086    program     static C:\Users\miyoshi\MPLABXProjects\SC1602.X\main.asm
+                     DIV1   0x00008d    program     static C:\Users\miyoshi\MPLABXProjects\SC1602.X\main.asm
+                  DHTREAD   0x000094    program     static C:\Users\miyoshi\MPLABXProjects\SC1602.X\main.asm
+              CHKDHTRESF1   0x00009e    program     static C:\Users\miyoshi\MPLABXProjects\SC1602.X\main.asm
+               CHKDHTRESR   0x0000a0    program     static C:\Users\miyoshi\MPLABXProjects\SC1602.X\main.asm
+              CHKDHTRESF2   0x0000a2    program     static C:\Users\miyoshi\MPLABXProjects\SC1602.X\main.asm
+                DHTREAD1B   0x0000bc    program     static C:\Users\miyoshi\MPLABXProjects\SC1602.X\main.asm
+                LPDHTRD1B   0x0000bf    program     static C:\Users\miyoshi\MPLABXProjects\SC1602.X\main.asm
+               CHKDHTRISE   0x0000c0    program     static C:\Users\miyoshi\MPLABXProjects\SC1602.X\main.asm
+               CHKDHTFALL   0x0000c2    program     static C:\Users\miyoshi\MPLABXProjects\SC1602.X\main.asm
+                 WAIT37US   0x0000cb    program     static C:\Users\miyoshi\MPLABXProjects\SC1602.X\main.asm
+                  LPW37US   0x0000cd    program     static C:\Users\miyoshi\MPLABXProjects\SC1602.X\main.asm
+                 WAIT1M5S   0x0000d1    program     static C:\Users\miyoshi\MPLABXProjects\SC1602.X\main.asm
+                  LPW1M5S   0x0000d3    program     static C:\Users\miyoshi\MPLABXProjects\SC1602.X\main.asm
+                 WAIT20MS   0x0000d7    program     static C:\Users\miyoshi\MPLABXProjects\SC1602.X\main.asm
+                  LPW20MS   0x0000d9    program     static C:\Users\miyoshi\MPLABXProjects\SC1602.X\main.asm
+                   WAIT1S   0x0000dd    program     static C:\Users\miyoshi\MPLABXProjects\SC1602.X\main.asm
+                    LPW1S   0x0000df    program     static C:\Users\miyoshi\MPLABXProjects\SC1602.X\main.asm
+
+
